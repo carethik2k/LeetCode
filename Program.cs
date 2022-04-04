@@ -10,8 +10,8 @@
 // s.TwoSum(nums,target).ToList().ForEach(i => Console.WriteLine(i.ToString()));
 
 AddTwoSolution t = new AddTwoSolution();
-ListNode node1 = t.CreateListNode(100);
-ListNode node2 = t.CreateListNode(2);
+ListNode node1 = t.CreateListNode(9999);
+ListNode node2 = t.CreateListNode(1999999);
 var node = t.AddTwoNumbers(node1,node2);
 while(true)
 {
